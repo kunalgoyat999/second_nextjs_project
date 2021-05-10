@@ -1,7 +1,8 @@
 import MeetupList from "../components/meetups/MeetupList";
+
 const DUMMY_MEETUPS = [
   {
-    id: "MI",
+    id: "sdsI",
     title: "A first meetup",
     image:
       "https://prod-tieinup-users-images.s3.ap-south-1.amazonaws.com/1607613132483-1607613132412-images_%287%29.jpeg",
