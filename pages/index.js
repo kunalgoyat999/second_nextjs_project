@@ -23,7 +23,6 @@ export async function getStaticProps() {
   const client = await MongoClient.connect(
     "mongodb+srv://kunal:MyPassword@cluster0.rkvlv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
   );
-
   const db = client.db();
 
   const meetupsCollection = db.collection("meetups");
@@ -39,7 +38,6 @@ export async function getStaticProps() {
         id: meetup._id.toString(),
       })),
     },
-    revalidate: 30,
   };
 }
 
