@@ -33,7 +33,7 @@ export async function getStaticProps(context) {
   // fetch data for a single meetup
 
   const meetupId = context.params.meetupid;
-  console.log(context);
+  // console.log(context);
 
   return {
     props: {
